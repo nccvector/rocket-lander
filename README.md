@@ -30,7 +30,7 @@ Use W/A/S/D to manually cause disturbances on your rocket
 The aim is to land the rocket safely using python
 The simulator is made using Unity3D which gets control commands from a python server using sockets.
 
-#### Custom Controller:
+## Custom Controller:
 You are welcome to replace your Controller logic inside the Controller class "get_controls" function.
 The "get_controls" function receives the Rocket state [x, y, theta, x_dot, y_dot, theta_dot] and it must return the control commands [fN, fT]
 
