@@ -1,5 +1,9 @@
 ## Rocket Lander Project
 
+<img src="/misc/Lander.gif"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" /> 
+
 #### How to Run:
 - Extract the Rocket Lander folder in the same directory as the Server.py
 - Open a terminal, navigate to this project directory (Server.py location)
