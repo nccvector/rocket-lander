@@ -6,6 +6,14 @@
 - Make sure the terminal is pointing in the same directory as Server.py file (optional, but make sure to try this if face any issues)
 - Run Server.py using "python Server.py"
 
+#### IMPORTANT:
+Following should be the folder heirarchy
+-- Root project folder
+------ Server.py
+------ Controller.py
+------ Rocket Lander (folder)
+---------- Rocket Lander.exe
+
 Server.py automatically launches the simulation, as well as your Controller
 
 Use W/A/S/D to manually cause disturbances on your rocket
