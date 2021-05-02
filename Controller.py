@@ -18,8 +18,8 @@ class Controller:
         This function will be called in a loop (keeps receiving state and returning controls)
         Function must return np.array([fN, fT])
         Rocket mass is 1200 kg (intertia tensor will be available in future)
-        fT positive left, negative right
-        fN strictly positive upwards thrust of rockets main engine (max = +/- 1000 N)
+        fT positive left, negative right (max = +/- 1000 N)
+        fN strictly positive upwards thrust of rockets main engine
         where fN is the normal Thrust force and fT is lateral thrust force (max = 2*mass*9.8 N)
 
         """
