@@ -8,10 +8,15 @@
 
 #### IMPORTANT:
 Following should be the folder heirarchy
+
 -- Root project folder
+
 ------ Server.py
+
 ------ Controller.py
+
 ------ Rocket Lander (folder)
+
 ---------- Rocket Lander.exe
 
 Server.py automatically launches the simulation, as well as your Controller
