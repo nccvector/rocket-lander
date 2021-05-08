@@ -26,7 +26,6 @@ def sending_and_reciveing(controller):
             
             state = np.frombuffer(bytes_received, dtype=np.float32) #converting into float array
 
-            print(state)
             nn_output = controller.get_controls(state)
 
             bytes_to_send = struct.pack('%sf' % len(nn_output), *nn_output) #converting float to byte
