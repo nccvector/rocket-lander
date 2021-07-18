@@ -30,7 +30,8 @@ Following should be the folder heirarchy
 
 Server.py automatically launches the simulation, as well as your Controller
 
-#### Use [W A S D] to take-off manually and cause disturbances on your rocket
+#### Use [W A S D] to take-off and cause disturbances on your rocket
+#### Once the rocket is in air and no keyboard keys are pressed, the python controller will take hold of the rocket
 
 The aim is to land the rocket safely using python
 The simulator is made using Unity3D which gets control commands from a python server using sockets.
